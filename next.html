@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VTP Admission</title>
+</head>
+<body style="background-color:#DAF7A6;">
+<center>
+<h1>
+	Admission Form 
+</h1>
+
+<h1>
+   <table>
+   	<tr>
+   		<td>
+   			Enter Your First Name :- <br>
+   		</td>
+   		<td>
+   			<input type="text" name="Name" required="Name">
+
+   		</td>
+   	</tr>
+ 
+   	<tr>
+   		<td>
+   			Enter Your Middle Name :- <br>
+   		</td>
+   		<td>
+   			<input type="text" name="Middle" required="Middle Name">
+   		</td>
+   	</tr>
+
+   	<tr>
+   		<td>
+   			Enter Your Last Name :- <br>
+   		</td>
+   		<td>
+   			<input type="text" name="Last" required="Last Name">
+   		</td>
+   	</tr>
+
+   	<tr>
+   		<td>
+   			Select Your Gender :- <br>
+
+   			Male
+   			<input type="radio" name="Male" required="Male">
+   			Female
+   			<input type="radio" name="Female" required="Female">
+   		</td>
+   	</tr>
+
+      <tr>
+   		<td>
+   			Enter Your Date Of Birth :- <br>
+   		</td>
+   		<td>
+   			<input type="date" name="dob" required="DOB">
+   		</td>
+
+   		<tr>
+   			<td>
+   		<label for="citys">Select a City:</label>
+
+      <select name="citys" id="citys">
+            <option value="Surat">Surat</option>
+           <option value="Ahemdabad">Ahemdabad</option>
+            <option value="Vododra">Vadodra</option>
+            <option value="Rajkot">Rajkot</option>
+     </select>
+   
+   </td>
+   		</tr>
+
+          <tr>
+   		<td>
+   			Enter Your Mobile No :- <br>
+   		</td>
+   		<td>
+   			<input type="number" name="phone" pattern="^[789]\d{9,9}$" required="Mobile No">
+   		</td>
+         </tr>
+         <tr>
+   		<td>
+   			Enter Your Email id :- <br>
+   		</td>
+   		<td>
+   			<input type="email" pattern="[^ @]*@[^ @]*" required="Email">
+   		</td>
+         </tr>
+
+         <tr>
+   			<td>
+   		<label for="citys">Select a Course:</label>
+
+      <select name="citys" id="citys">
+            <option value="BCA">BCA</option>
+           <option value="B.COM">B.COM</option>
+     </select>
+   
+   </td>
+   		
+   </table>
+
+   	<h1>
+     <form name="form2"  method="POST" action="three.html">
+	<tr>
+	<td>	
+      <button>Admission Submit</button>
+    
+    </td>
+    </tr>
+    </form>
+    </h1>
+   </h1>
+</center>
+</body>
+</html>
